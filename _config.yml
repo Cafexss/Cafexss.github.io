@@ -29,15 +29,15 @@ disqus_site_shortname: "nandothemes"
 
 # Author settings
 author:
-  name      : Fernando Moreira
-  job       : Frontend Engineer
+  name      : 咖啡
+  job       : 
   bio       : "just do ITTITITIT"
   thumb     : /images/author.jpg
   email     : coffeemjj@gmail.com
-  url       : http://nandomoreira.me
+  url       : http://github.com/cafexss
   github    : http://github.com/cafexss
   twitter   : http://twitter.com/xssing
-  weibo  : http://weibo.com/g0ob/
+  facebook  : http://weibo.com/g0ob/
   linkedin  : http://linkedin.com/in/null
 
 # navbar pages
