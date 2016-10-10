@@ -16,10 +16,10 @@ sass:
 
 # SEO settings
 title: Coffee's 博客
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
+description: "分享点有用的东西"
+keywords: "Coffee's 博客 | 网络安全|php|移动安全"
 url: https://cafexss.github.io/
-baseurl: "/"
+baseurl: ""
 # baseurl: ""
 
 # google_analytics: UA-52446115-1
@@ -31,7 +31,7 @@ disqus_site_shortname: "nandothemes"
 author:
   name      : Fernando Moreira
   job       : Frontend Engineer
-  bio       : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  bio       : "just do ITTITITIT"
   thumb     : /images/author.jpg
   email     : coffeemjj@gmail.com
   url       : http://nandomoreira.me
