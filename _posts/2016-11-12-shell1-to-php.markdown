@@ -15,3 +15,5 @@ preg_replace("/t/{$s[1]}",$_GET["h"],"t");
 
 
 {% endhighlight %}
+
+ ![img](https://striker.teambition.net/thumbnail/110lc0f74e834ec7663908097a2663346161/w/800/h/847)
