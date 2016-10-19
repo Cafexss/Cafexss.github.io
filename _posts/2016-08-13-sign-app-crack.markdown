@@ -1,11 +1,19 @@
-#  签名破解入门实例
+---
+layout: post
+title:  "APP签名破解入门实例"
+comments: true
+date:   2016-08-13 13:46:52
+categories: Android update
+---
+
+#  APP签名破解入门实例
 
 ------
 
 1.
     **硬编码带来的安全问题**
 下载了某app ， 抓包找漏洞， 发现重置密码处修改信息就会报错非法请求。 我想应该存在签名。
- Markdown：
+
 
 
 
