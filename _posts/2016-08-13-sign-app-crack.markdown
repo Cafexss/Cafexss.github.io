@@ -6,7 +6,7 @@ date:   2016-08-13 13:46:52
 categories: Android update
 ---
 
-#  APP签名破解入门实例
+
 
 ------
 
@@ -29,10 +29,12 @@ categories: Android update
 这里代码没有经过混淆 ，一目了然。
 
      String v4 = "glsapp2014" + phoneNumber + "phone" + validationCode + v0;
-一个硬编码加当前手机号加phone+验证码+当前系统时间
+
+     一个硬编码加当前手机号加phone+验证码+当前系统时间
 
     glsapp201417091604326phone8888820160602105949
-然后把他经过md5加密
+
+    然后把他经过md5加密
 
 
 
