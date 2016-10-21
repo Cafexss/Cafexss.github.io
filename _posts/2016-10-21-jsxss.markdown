@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "记一个XSS修复"
+description: "完全不过滤，函数替换，jsunicode."
+date:   2015-11-12 19:19:43
+keywords: "完全不过滤，函数替换，jsunicode"
+comments: true
+category: xss php update
+---
+
+
+1.
+
+ 、**json数据完全没有过滤的情况下**
+
+![xss1.1][1]
+
+2、
+
+> **一般肯定有函数会进行替换的**
+
+![xss1.2][2]
+
+3、 
+
+> **不过可以使用jsunicode绕过**
+
+![xss1.3][3]
+
+4.**
+
+> 最后使用htmlspecialchars函数进行编码应该没问题了吧
+
+**
+![xss1.4][4]
+
+
+5.总结
+
+  **我不直接在传入post的请求的时候进行htmlspecialchars，考虑到会过滤到json数据里的双引号，导致无法正常解析。 而使用替换功能，不会对用户正常输入造成影响，即使用户输入存在尖括号需求也可以直接在前端输入进行转码，然后使用json传递。
+    最后输入结果会被编码后，存入数据库或者正常显示。**
+
+  [1]: https://striker.teambition.net/thumbnail/110l3ac50ac8ebd81f7495a7c77f9c5aae7e/w/800/h/369
+  [2]: https://striker.teambition.net/thumbnail/110l07df36b174bf0042e1dd2ffa907164a2/w/800/h/277
+  [3]: https://striker.teambition.net/thumbnail/110l2b09684727b08c3671b2a8c1725c537a/w/800/h/371
+  [4]: https://striker.teambition.net/thumbnail/110l0ea6ca525f403aa5e6870531cb2e1163/w/800/h/246
