@@ -2,7 +2,7 @@
 layout: post
 title:  "记一个XSS修复"
 description: "完全不过滤，函数替换，jsunicode."
-date:   2015-11-12 19:19:43
+date:   2016-10-21 10:01:43
 keywords: "完全不过滤，函数替换，jsunicode"
 comments: true
 category: xss php update
