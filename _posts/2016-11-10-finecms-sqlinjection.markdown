@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Finecms SQL注入"
+title:  "Finecms SQL injection"
 date:   2016-11-14 18:04:55
 comments: true
 categories: php bug
