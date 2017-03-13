@@ -3,7 +3,7 @@ layout: post
 title:  "网站登录密码前端加密破解"
 date:   2017-03-13 16:04:55
 comments: true
-catego
+categories: javascript bug
 ---
 
 ##网站登录密码前端加密破解
