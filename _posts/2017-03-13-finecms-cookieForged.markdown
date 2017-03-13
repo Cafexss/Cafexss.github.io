@@ -3,8 +3,9 @@ layout: post
 title:  "Finecms Cookie Forged"
 date:   2017-03-13 15:04:55
 comments: true
-catego
+categories: php bug
 ---
+
 ##Finecms Cookie伪造
 
 
