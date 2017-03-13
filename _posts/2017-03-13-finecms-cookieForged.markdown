@@ -4,7 +4,7 @@ title:  "Finecms Cookie Forged"
 date:   2017-03-13 15:04:55
 comments: true
 catego
-
+---
 ##Finecms Cookie伪造
 
 
@@ -17,9 +17,9 @@ catego
 cookie表前缀+字符串 ，我通过github搜索发现字符串并不是随机生成的而是固定的值
 ```javascript
 
-                  set_cookie('member_id', $member['id'], $time);
+  set_cookie('member_id', $member['id'], $time);
 
-                    set_cookie('member_code', substr(md5(SITE_MEMBER_COOKIE . $member['id']), 5, 20), $time);
+    set_cookie('member_code', substr(md5(SITE_MEMBER_COOKIE . $member['id']), 5, 20), $time);
 ```
 构造cookiehash
 ```javascript
