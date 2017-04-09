@@ -11,8 +11,6 @@ categories: php bug
 这个漏洞是朋友通过黑盒测试发现， 然后我写了个补丁 。
 此时尚未修复就不透露细节， 看的懂的人自己会用。
 
-我通过搜索找到了js 文件 然后下断点观察
-![rock](https://striker.teambition.net/thumbnail/110q077cc7e9bde9173f3bf22af1e621bd32/w/800/h/574)
 
 
 此处直接传入用户的值， 没有校验该贴是否属于当前用户导致 越权产生
